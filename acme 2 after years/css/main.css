@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:80%;
+    margin-left:10%;
+}
+
+header{
+    background-color:#38414A;
+    min-height:120px;
+
+}
+
+.logo{
+    float:left;
+    color:white;
+    padding-top:3%;
+}
+
+nav{
+    float:right;
+    padding-top:3.6%;
+    box-sizing:border-box;
+}
+
+nav li{
+    text-decoration: none;
+    display:inline;
+    font-size:25px;
+    color:white;
+    text-transform: uppercase;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+
+.orangeLine{
+    height:5px;
+    background:#F14724;
+}
+
+.backgroundHere{
+    background:url(../img/showcase.jpg);
+    background-size:cover;
+    background-position: center;
+    width:auto;
+    min-height:600px;
+    
+}
+
+.jiest{
+    text-align: center;
+    color:white;
+    
+}
+
+.jiest h1{
+  font-size:65px;
+  padding: 150px 0 30px 0;
+
+}
+
+.jiest p{
+    font-size: 20px;
+    
+}
+
+.newsletter{
+    min-height:150px;
+    background-color:#38414A;
+    color:white;
+    
+}
+
+form{
+    float:right;
+    font-size:25px;
+    padding-top:1.3em;
+    box-sizing:border-box;
+}
+
+.subs{
+    float:left;
+    padding-top:1.5em;
+    font-size:25px;
+    box-sizing:border-box;
+}
+
+.email{
+    width:250px;
+    height:29px;
+}
+
+.button{
+    width:100px;
+    height:35px;
+    background-color:#F14724;
+    border:none;
+    color:white;
+}
+
+.blocks{
+   
+    width:50%;
+    padding-top:50px;
+    height:500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom:50px;
+
+}
+.block{
+    float:left;
+    width:200px;
+    text-align:justify; 
+    margin-left:5%;
+    box-sizing: border-box;
+    padding-top:15px;
+
+   
+    
+
+}
+
+
+
+
+.block h1{
+    padding-top:25px;
+    padding-bottom:25px;
+    text-align:center;
+
+}
+
+footer{
+    text-align:center;
+    background:#F14724;
+    color:white;
+    padding:3em;
+    clear:both;
+
+    
+}
+
+
+@media(max-width:1780px){
+    .blocks{
+        height:850px;
+    }
+}
+
+@media(max-width:1200px){
+    .blocks{
+        width:200px;
+        height:1200px;
+    }
+}
+
+@media(max-width:600px){
+     .logo{
+         float:none;
+         text-align:center;
+         width:100%;
+     }
+
+     .nav{
+         float:none;
+         text-align:center;
+         width:100%;
+         
+     }
+
+     .jiest h1{
+        width:100%;
+        font-size:50px;
+     }
+
+     .jiest p{
+         text-align:center;
+         width:100%;
+     }
+
+     .newsletter{
+         height:180px;
+         width:100%;
+     }
+
+     .subs{
+         float:none;
+         text-align: center;
+         width:100%;
+     }
+
+     form{
+         float:none;
+         text-align: center;
+     }
+
+     .block{
+         float:none;
+         padding-top:15px;
+     }
+
+    
+
+
+}
+
+
+
+
